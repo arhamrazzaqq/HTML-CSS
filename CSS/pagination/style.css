@@ -1,0 +1,18 @@
+.pagination {
+    justify-content: center;
+}
+.pagination a{
+    color: black;
+    text-decoration: none;
+    padding: 8px 15px;
+    display: inline-block;
+}
+.pagination a.active{
+    background-color: #4CAF50;
+    color: white;
+    border-radius: 5px;
+}
+.pagination a:hover:not(.active){
+    background-color: #635f5f;
+    border-radius: 5px;
+}

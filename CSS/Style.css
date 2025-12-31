@@ -1,0 +1,58 @@
+body{
+            background-color: lightgreen;
+            display: flow-root;
+        }
+        h1{
+            color: yellow;
+            text-shadow: 5px 5px 5px red,  -5px -5px 5px blue;
+            font-size: 70px;
+        }
+        #box1{
+            width: 200px;
+            height: 200px;
+            border: 5px solid black;
+            background-color: lightblue;
+            box-shadow: 10px 10px 5px grey;
+        }
+        #p1{
+            color: red;
+        }
+
+        #p2{
+            color: blue;
+        }
+
+        .odd{
+            font-family: Arial;
+        }
+        .even{
+            font-family: 'Times New Roman';
+        }
+        #space{
+            margin-top: 50px;
+            float: left;
+
+        }
+a:link{
+    color:rgb(0, 68, 255);
+}
+a:hover{
+    color:rgb(0, 140, 255);
+    font-size: 1.1em;
+}
+a:active{
+    color:rgb(0, 0, 0);
+    font-size: 1.1em;
+}
+a:visited{
+    color:rgb(174, 0, 180);
+    font-size: 1.1em;
+}
+li:hover{
+    color:rgb(255, 0, 0);
+    font-size: 1.1em;
+}
+li:not(:hover){
+    color:rgb(3, 175, 255);
+    font-size: 1.1em;
+}

@@ -1,0 +1,73 @@
+<head>
+
+</head>
+<body>
+    <form action="index.php" method="POST" enctype="multipart/form-data">
+        <label for="username">username:</label>
+        <input type="text" id="username" placeholder="Username"required>
+        
+        <label for="password">password:</label>
+        <input type="password" id="password" placeholder="Password" required><br>
+
+        <label for="email">email</label>
+        <input type="email" id=email placeholder="example@fake.com"><br>
+        
+        <label for="dob">date of birth:</label>
+        <input type="date" id="dob"><br>
+
+        <label for="phone">phone no.:</label>
+        <input type="tel" id="phone" placeholder="+92-123-456-7890" pattern="[0-9]{2}-[0-9]{3}-[0-9]{3}-[0-9]{4}"><br>
+
+        <label for="quantity">quantity:</label>
+        <input type="number" id="quantity" min="1" max="10"><br>
+
+        <label for="title">title:</label>
+
+        <label for="Mr.">Mr.</label>
+        <input type="radio" id="Mr." name="title" value="Mr.">
+        <label for="Ms.">Ms.</label>
+        <input type="radio" id="Ms." name="title" value="Ms."><br>
+        
+        <label for="payment">payment</label>
+        <select id="payment" name="payment">
+            <option value="credit card">credit card</option>
+            <option value="debit card">debit card</option>
+            <option value="paypal">paypal</option>
+        </select><br>
+
+        <label for="comments">comments:</label><br>
+        <textarea id="comments" name="comments" rows="4" cols="30"></textarea>
+
+        <label for="subscribe">subscribe:</label>
+        <input type="checkbox" id="subscribe" name="subscribe" value="yes">
+
+        <label for="file">file:</label>
+        <input type="file" id="file" name="file" accept="images/png, images/jpeg"><br>
+    
+    </form>
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        <input type="reset" style="Background-color:grey"><br>
+        <input type="submit" style="Background-color:grey">
+    
+    </form>
+</body>
